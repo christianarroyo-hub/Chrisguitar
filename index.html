@@ -2,9 +2,162 @@
 <html>
 <head>
 	<title>Página del muñeñiño</title>
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       
 </head>
+<style type="text/css">
+	h1 {
+		font-size: 32px;
+		font-family: Montserrat;
+	}
+	h2 {
+		font-size: 15px;
+		font-family: Montserrat;
+	}
+	body{
+		background-color: #222;
+		color: #fff;
+		font-size: 17px;
+	}
+	.topper{
+		background-color: #aaa;
+		border-radius: 25px 25px 0px 0px;
+		border: #555 5px solid;
+		margin-top: 2em;
+	}
+	.intern{
+		background-color: #aaa;
+		border: #555 5px solid;
+		margin-top: -30px;
+		padding: 15px;
+	}
+	.img-principal{
+		border-radius: 20px;
+		max-height: 500px;
+		max-width: 400px;
+		min-height: 500px;
+		display: none;
+		margin: 10px;
+		border: white 3px solid;
+	}
+	
+	.info{
+		background-color: #222;
+		border: #555 5px solid;
+		border-radius: 20px;
+	}
+	.img-principal.visible {
+	    display: block; /* Muestra la imagen actual */
+	}
+
+
+</style>
 <body>
-<h1>El muñeñiño</h1>
-<p>También conocido como el caballero del pañal apestoso</p>
+	<div class="container">
+        <div class="row topper">
+      		<div class="col s12 center">
+      			<h1><b>~Christian Arrollo Castañeda~</b></h1>
+      			<h2>MÚSICO | GUITARRISTA | PIANISTA | INTERPRETE</h2>
+      		</div>
+    	</div>
+    	<div class="row intern valign-wrapper">
+      		<div class="col s12 l5 center">
+				<img class="img-principal visible center" src="recursos/img/chris-principal-1.jpeg">
+				<img class="img-principal center" src="recursos/img/chris-principal-2.jpeg">
+				<img class="img-principal center" src="recursos/img/chris-principal-3.jpeg">
+			</div>
+			<div class="col s12 l7 info">
+				<p class="valign-wrapper"><i class="tiny material-icons">info</i><span style="color: white;"><b> Acerca de mi:</b></span></p>
+				<p>Soy un adolecente que le gusta mucho la musica, y mas que gustarme es mi pasion y es algo que siempre hago con el corazon. Llevo 5 años en el mundo de la musica dominando instrumentos como el piano/guitarra/bajo etc...</p>
+				<p class="valign-wrapper"><i class="tiny material-icons">location_on</i><span style="color: white;"> México | Puebla</span></p>
+				<p class="valign-wrapper"><i class="tiny material-icons">local_phone</i><a href="tel:+525559021108" style="color: white;"> 55 59 02 11 08</a></p>
+				<p class="valign-wrapper"><i class="tiny material-icons">library_music</i><span style="color: white;"><b> Generos que manejo:</b></span></p>
+				<p>
+					<ul>
+						<li>●Rock en español</li>
+						<li>●Pop</li>
+						<li>●Ambiental</li>
+						<li>●Lofi</li>
+						<li>●Rock en ingles</li>
+						<li>●Alternativo</li>
+					</ul>
+				</p>
+			</div>
+    	</div>
+  		<div class="row intern">
+		    <div class="col s12 info center">
+      			<h2 style="font-size: 25px;"><b>Presentaciones</b></h2>
+      		</div>
+		    <div class="col s12 l4">
+		      	<div class="card">
+		        	<div class="card-image">
+		          		<img src="recursos/img/festival amor.jpeg" class="img-card">
+		          		<span class="card-title">14/02/25</span>
+		        	</div>
+		        	<div class="card-content">
+		          		<p style="color: black;">Festival del amor - Parque del arte | Puebla </p>
+		        	</div> 
+		      	</div>
+		    </div>
+		    <div class="col s12 l4">
+		      	<div class="card">
+		        	<div class="card-image">
+		          		<img src="recursos/img/acatzingo.jpeg" class="img-card">
+		          		<span class="card-title">12/04/25</span>
+		        	</div>
+		        	<div class="card-content">
+		          		<p style="color: black;">Acatzingo - Feria Estatal  | Puebla </p>
+		        	</div> 
+		      	</div>
+		    </div>
+		    <div class="col s12 info center">
+      			<h2 style="font-size: 25px;"><b>Agrupación musical</b></h2>
+      		</div>
+      		<div class="col s12 l4 offset-l4">
+				<div class="card">
+				    <div class="card-image waves-effect waves-block waves-light">
+				    	<img class="activator img-card" src="recursos/img/andromeda-logo.jpeg">
+				    </div>
+				    <div class="card-content">
+				    	<span class="card-title activator grey-text text-darken-4">Andromeda<i class="material-icons right">more_vert</i></span>
+				     	<p><a href="https://www.instagram.com/andromedaof_5">@andromedaof_5</a></p>
+				    </div>
+				    <div class="card-reveal">
+				      	<span class="card-title grey-text text-darken-4">Andromeda<i class="material-icons right">close</i></span>
+				      	<p style="color: black;">🎤Vocalista: <a href="https://www.instagram.com/carlo_leandr" target="_blank">@carlo_leandr</a></p>
+						<p style="color: black;">🥁Baterista: <a href="https://www.instagram.com/_munoz_492" target="_blank">@_munoz_492</a></p>
+						<p style="color: black;">🎸Bajista: <a href="https://www.instagram.com/nabil_lucianoo" target="_blank">@nabil_lucianoo</a></p>
+						<p style="color: black;">🎸Guitarristas:<a href="https://www.instagram.com/notcris_a.c_" target="_blank"> @notcris_a.c_ </a><a href="https://www.instagram.com/gis_merlo" target="_blank">@gis_merlo</a></p>
+				    </div>
+				</div>
+			</div>
+            
+		</div>
+    </div>
+<script>
+const imagenes = document.querySelectorAll('.img-principal');
+let indiceActual = 0;
+const tiempoCambio = 4000; // 4 segundos
+
+function mostrarImagen(indice) {
+    imagenes.forEach(img => img.classList.remove('visible'));
+    imagenes[indice].classList.add('visible');
+}
+
+function siguienteImagen() {
+    imagenes[indiceActual].classList.remove('visible');
+    indiceActual = (indiceActual + 1) % imagenes.length;
+    imagenes[indiceActual].classList.add('visible');
+}
+
+setInterval(siguienteImagen, tiempoCambio);
+
+// Muestra la primera imagen al cargar la página (ya lo hace el 'visible' inicial, pero por si acaso)
+mostrarImagen(indiceActual);
+</script>
 </body>
 </html>
